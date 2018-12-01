@@ -1,0 +1,17 @@
+{
+  "name": "test4",
+  "version": "1.0.0",
+  "description": "Learning Typescript",
+  
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Debadatta Mishra",
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "typescript": "^2.5.1"
+  }
+}

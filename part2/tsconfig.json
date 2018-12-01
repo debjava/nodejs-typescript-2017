@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "module": "none",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "rootDir":"app",
+    "outDir": "js",
+    "removeComments": false,
+    "sourceMap": false,
+    "strictNullChecks": false,
+    "target": "es2018"
+  },
+  "compileOnSave": true,
+  
+}

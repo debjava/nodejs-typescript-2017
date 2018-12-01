@@ -1,0 +1,17 @@
+{
+  "name": "wodia",
+  "version": "1.0.0",
+  "description": "Work Diary",
+  
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Igor Babic",
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "typescript": "^2.5.1"
+  }
+}

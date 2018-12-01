@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\devsoftwares\\nodejs\\node.exe',
+1 verbose cli   'E:\\devsoftwares\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle test1@0.0.0~prebuild: test1@0.0.0
+6 silly lifecycle test1@0.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle test1@0.0.0~build: test1@0.0.0
+8 verbose lifecycle test1@0.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle test1@0.0.0~build: PATH: E:\devsoftwares\nodejs\node_modules\npm\bin\node-gyp-bin;E:\typescript-2018\test1\node_modules\.bin;E:/devsoftwares/Java/jre1.8.0_161/bin/server;E:/devsoftwares/Java/jre1.8.0_161/bin;E:/devsoftwares/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;E:\devsoftwares\komodoEdit\;E:\database\oracle11g\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\utilitysoftware\TortoiseGit\bin;E:\devsoftwares\nodejs\;E:\scala-sdk\bin;C:\WINDOWS\System32\OpenSSH\;E:\devsoftwares\Python3\Python37\Scripts\;E:\devsoftwares\Python3\Python37\;C:\Users\PIKU\AppData\Local\Programs\Python\Launcher\;E:\devsoftwares\Ruby24-x64\bin;E:\devsoftwares\Java\jdk1.8.0_161\bin;E:\devsoftwares\buildmgmt\apache-ant-1.9.7\bin;E:\devsoftwares\buildmgmt\gradle-4.6\bin;E:\devsoftwares\buildmgmt\apache-maven-3.3.9\bin;E:\devsoftwares\database-tools\instantclient_11_2;C:\Users\PIKU\AppData\Local\Microsoft\WindowsApps;D:\utilitysoftware\Microsoft VS Code\bin;C:\Users\PIKU\AppData\Roaming\npm;C:\MinGW\bin;;E:\devsoftwares\Eclipse-IDEs\eclipse-photon-javascript;
+10 verbose lifecycle test1@0.0.0~build: CWD: E:\typescript-2018\test1
+11 silly lifecycle test1@0.0.0~build: Args: [ '/d /s /c', 'tsc -p ./src' ]
+12 silly lifecycle test1@0.0.0~build: Returned: code: 1  signal: null
+13 info lifecycle test1@0.0.0~build: Failed to exec build script
+14 verbose stack Error: test1@0.0.0 build: `tsc -p ./src`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (E:\devsoftwares\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (E:\devsoftwares\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid test1@0.0.0
+16 verbose cwd E:\typescript-2018\test1
+17 error Windows_NT 10.0.17134
+18 error argv "E:\\devsoftwares\\nodejs\\node.exe" "E:\\devsoftwares\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+19 error node v6.11.4
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error test1@0.0.0 build: `tsc -p ./src`
+22 error Exit status 1
+23 error Failed at the test1@0.0.0 build script 'tsc -p ./src'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the test1 package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     tsc -p ./src
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs test1
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls test1
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,0 +1,16 @@
+{
+  "name": "TS1",
+  "version": "1.0.0",
+  "description": "Learning Typescript",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc"
+  },
+  "author": "Debadatta Mishra",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.1"
+  }
+}
